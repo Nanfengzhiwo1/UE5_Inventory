@@ -95,9 +95,9 @@ struct FItemData : public FTableRowBase
 	UPROPERTY(EditAnywhere, Category="Item Data")
 	FItemStatistics ItemStatistics;
 	UPROPERTY(EditAnywhere, Category="Item Data")
-	FItemTextData ItemTextData;
+	FItemTextData TextData;
 	UPROPERTY(EditAnywhere, Category="Item Data")
-	FItemNumericData ItemNumericData;
+	FItemNumericData NumericData;
 	UPROPERTY(EditAnywhere, Category="Item Data")
-	FItemAssetData ItemAssetData;
+	FItemAssetData AssetData;
 };

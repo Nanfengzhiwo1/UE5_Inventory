@@ -81,9 +81,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a151e4-49e8-482a-a84e-db1f4324a1bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/ItemData/DT_MundaneItems.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/Items/ItemBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/Items/ItemBase.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/ItemDataStructs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory.uproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/ItemDataStructs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/ItemDataStructs.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29879,7 +29880,12 @@
       <option name="presentableId" value="Default" />
       <updated>1742555259964</updated>
       <workItem from="1742555262077" duration="4119000" />
-      <workItem from="1742560388778" duration="1016000" />
+      <workItem from="1742560388778" duration="1784000" />
+      <workItem from="1742563108690" duration="2490000" />
+      <workItem from="1742739985292" duration="34000" />
+      <workItem from="1742897281812" duration="1851000" />
+      <workItem from="1742983536523" duration="3845000" />
+      <workItem from="1742997058473" duration="3110000" />
     </task>
     <servers />
   </component>
