@@ -81,11 +81,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a151e4-49e8-482a-a84e-db1f4324a1bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/Items/ItemBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/Items/ItemBase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_InterfaceTestActor.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/WO/OST5JVGL4NJCAFPZ5V8ZQG.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/Character/MyCharacter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/Interfaces/InteractionInterface.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/World/InterfaceTestActor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/Character/MyCharacter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/Interfaces/InteractionInterface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/World/InterfaceTestActor.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inventory.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/ItemDataStructs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/ItemDataStructs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/Items/ItemBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Private/Items/ItemBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/Items/ItemBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/Items/ItemBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29886,6 +29896,14 @@
       <workItem from="1742897281812" duration="1851000" />
       <workItem from="1742983536523" duration="3845000" />
       <workItem from="1742997058473" duration="3110000" />
+      <workItem from="1743067278821" duration="6715000" />
+      <workItem from="1743160788374" duration="6571000" />
+      <workItem from="1743230816032" duration="366000" />
+      <workItem from="1743237612532" duration="841000" />
+      <workItem from="1743241589570" duration="8080000" />
+      <workItem from="1743283675892" duration="262000" />
+      <workItem from="1743309622577" duration="5354000" />
+      <workItem from="1743331753826" duration="3379000" />
     </task>
     <servers />
   </component>

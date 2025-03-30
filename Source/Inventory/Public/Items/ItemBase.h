@@ -48,13 +48,10 @@ class INVENTORY_API UItemBase : public UObject
 	UFUNCTION(Category="Item")
 	void SetQuantity(const int32 NewQuantity);
 	UFUNCTION(Category="Item")
-	virtual void Use(ACharacter* Character);
+	virtual void Use(AMyCharacter* Character);
 
 #pragma endregion
 
 protected:
-	bool operator ==(const FName& OtherID) const
-	{
-		return ID==OtherID;
-	}
+	bool operator ==(const FName& OtherID) const{return ID==OtherID;}
 };

@@ -31,6 +31,6 @@ void UItemBase::SetQuantity(const int32 NewQuantity)
 	}
 }
 
-void UItemBase::Use(ACharacter* Character)
+void UItemBase::Use(AMyCharacter* Character)
 {
 }
