@@ -16,21 +16,21 @@ class INVENTORY_API UItemBase : public UObject
 	GENERATED_BODY()
 
 #pragma region Properties&Variables
-	UPROPERTY(VisibleAnywhere,Category="Item Data",meta=(UIMin=1,UIMax=100))
+	UPROPERTY(VisibleAnywhere,Category="Item")
 	int32 Quantity;
-	UPROPERTY(EditAnywhere, Category="Item Data")
+	UPROPERTY(VisibleAnywhere, Category="Item")
 	FName ID;
-	UPROPERTY(EditAnywhere, Category="Item Data")
+	UPROPERTY(VisibleAnywhere, Category="Item")
 	EItemQuality ItemQuality;
-	UPROPERTY(EditAnywhere, Category="Item Data")
+	UPROPERTY(VisibleAnywhere, Category="Item")
 	EItemType ItemType;
-	UPROPERTY(EditAnywhere, Category="Item Data")
+	UPROPERTY(VisibleAnywhere, Category="Item")
 	FItemStatistics ItemStatistics;
-	UPROPERTY(EditAnywhere, Category="Item Data")
+	UPROPERTY(VisibleAnywhere, Category="Item")
 	FItemTextData TextData;
-	UPROPERTY(EditAnywhere, Category="Item Data")
+	UPROPERTY(VisibleAnywhere, Category="Item")
 	FItemNumericData NumericData;
-	UPROPERTY(EditAnywhere, Category="Item Data")
+	UPROPERTY(VisibleAnywhere, Category="Item")
 	FItemAssetData AssetData;
 #pragma endregion
 
@@ -53,5 +53,5 @@ class INVENTORY_API UItemBase : public UObject
 #pragma endregion
 
 protected:
-	bool operator ==(const FName& OtherID) const{return ID==OtherID;}
+	bool operator ==(const FName& OtherID) const{return this->ID==OtherID;}
 };
