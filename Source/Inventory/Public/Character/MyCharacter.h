@@ -7,6 +7,8 @@
 #include "Inventory/InventoryCharacter.h"
 #include "MyCharacter.generated.h"
 
+class AMyHUD;
+
 USTRUCT()
 struct FInteractionData
 {
@@ -43,6 +45,9 @@ public:
 	FORCEINLINE bool IsInteracting() const{return GetWorldTimerManager().IsTimerActive(TimerHandle_Interaction);};
 	
 protected:
+
+	UPROPERTY()
+	AMyHUD* MyHUD;
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 

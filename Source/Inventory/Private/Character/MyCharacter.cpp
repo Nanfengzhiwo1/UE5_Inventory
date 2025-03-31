@@ -3,6 +3,8 @@
 
 #include "Character/MyCharacter.h"
 
+#include "UserInterface/MyHUD.h"
+
 // Sets default values
 AMyCharacter::AMyCharacter()
 {
@@ -17,6 +19,7 @@ AMyCharacter::AMyCharacter()
 void AMyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	MyHUD=Cast<AMyHUD>(GetWorld()->GetFirstPlayerController()->GetHUD());
 }
 
 
@@ -91,6 +94,9 @@ void AMyCharacter::FoundInteractable(AActor* NewInteractable)
 	InteractionData.CurrentInteractable=NewInteractable;
 	TargetInteractable=NewInteractable;
 
+	// update interaction widget
+	MyHUD->UpdateInteractionWidget(&TargetInteractable->InteractableData);
+	
 	TargetInteractable->BeginFocus();
 	
 }
@@ -106,6 +112,9 @@ void AMyCharacter::NoInteractableFound()
 		TargetInteractable->EndFocus();
 	}
 
+	// hide interaction widget on the HUD
+	MyHUD->HideInteractionWidget();
+	
 	InteractionData.CurrentInteractable=nullptr;
 	TargetInteractable=nullptr;
 }
