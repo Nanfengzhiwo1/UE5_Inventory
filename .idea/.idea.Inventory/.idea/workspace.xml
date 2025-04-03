@@ -81,27 +81,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a151e4-49e8-482a-a84e-db1f4324a1bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_MyGameMode.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_MyHUD.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_InteractionWidget.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_InventoryPanel.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_MainMenu.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/UserInterface/Interaction/InteractionWidget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/UserInterface/Inventory/InventoryPanel.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/UserInterface/MainMenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/UserInterface/MyHUD.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/UserInterface/Interaction/InteractionWidget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/UserInterface/Inventory/InventoryPanel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/UserInterface/MainMenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/UserInterface/MyHUD.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_PickupBase.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/C3/696G899I4J2Z4TDTY8WLQN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/QE/NAD74TSOFSH0WQ7D466NG8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/World/Pickup.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/World/Pickup.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/WO/OST5JVGL4NJCAFPZ5V8ZQG.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/WO/OST5JVGL4NJCAFPZ5V8ZQG.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/Character/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Private/Character/MyCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/World/InterfaceTestActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Private/World/InterfaceTestActor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/Character/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/Character/MyCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/World/InterfaceTestActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/World/InterfaceTestActor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ItemData/DT_MundaneItems.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ItemData/DT_MundaneItems.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UserInterface/WBP_InteractionWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_InteractionWidget.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/Items/ItemBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/Items/ItemBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29913,6 +29901,11 @@
       <workItem from="1743353204122" duration="6990000" />
       <workItem from="1743416237321" duration="3770000" />
       <workItem from="1743431289405" duration="2728000" />
+      <workItem from="1743446647539" duration="307000" />
+      <workItem from="1743563131202" duration="1746000" />
+      <workItem from="1743591216688" duration="8569000" />
+      <workItem from="1743609268821" duration="1955000" />
+      <workItem from="1743682311951" duration="321000" />
     </task>
     <servers />
   </component>

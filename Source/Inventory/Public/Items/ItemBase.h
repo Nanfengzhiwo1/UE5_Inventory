@@ -14,7 +14,7 @@ UCLASS()
 class INVENTORY_API UItemBase : public UObject
 {
 	GENERATED_BODY()
-
+public:
 #pragma region Properties&Variables
 	UPROPERTY(VisibleAnywhere,Category="Item")
 	int32 Quantity;
