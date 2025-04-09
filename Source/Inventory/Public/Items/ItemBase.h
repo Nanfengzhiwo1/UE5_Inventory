@@ -7,6 +7,7 @@
 #include "UObject/NoExportTypes.h"
 #include "ItemBase.generated.h"
 
+class UInventoryComponent;
 /**
  * 
  */
@@ -16,6 +17,8 @@ class INVENTORY_API UItemBase : public UObject
 	GENERATED_BODY()
 public:
 #pragma region Properties&Variables
+	UPROPERTY()
+	UInventoryComponent* OwningInventory;
 	UPROPERTY(VisibleAnywhere,Category="Item")
 	int32 Quantity;
 	UPROPERTY(VisibleAnywhere, Category="Item")
@@ -32,11 +35,15 @@ public:
 	FItemNumericData NumericData;
 	UPROPERTY(VisibleAnywhere, Category="Item")
 	FItemAssetData AssetData;
+
+	bool bIsCopy;
+	bool bIsPickup;
 #pragma endregion
 
 #pragma region Functions
 	UItemBase();
-	
+
+	void ResetItemFlags();
 	UItemBase* CreateItemCopy();
 
 	UFUNCTION(Category="Item")
@@ -49,9 +56,9 @@ public:
 	void SetQuantity(const int32 NewQuantity);
 	UFUNCTION(Category="Item")
 	virtual void Use(AMyCharacter* Character);
-
-#pragma endregion
-
 protected:
 	bool operator ==(const FName& OtherID) const{return this->ID==OtherID;}
+#pragma endregion
+
+
 };

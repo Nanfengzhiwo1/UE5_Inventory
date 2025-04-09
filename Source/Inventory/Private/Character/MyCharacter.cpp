@@ -3,6 +3,7 @@
 
 #include "Character/MyCharacter.h"
 
+#include "Components/InventoryComponent.h"
 #include "UserInterface/MyHUD.h"
 
 // Sets default values
@@ -13,6 +14,10 @@ AMyCharacter::AMyCharacter()
 	InteractionCheckFrequency = 0.1;
 	InteractionCheckDistance = 225.0f;
 	BaseEyeHeight = 74.0f;
+
+	PlayerInventory=CreateDefaultSubobject<UInventoryComponent>(TEXT("PlayerInventory"));
+	PlayerInventory->SetSlotsCapacity(20);
+	PlayerInventory->SetWeightCapacity(50.0f);
 }
 
 // Called when the game starts or when spawned
@@ -159,5 +164,13 @@ void AMyCharacter::Interact()
 	if (IsValid(TargetInteractable.GetObject()))
 	{
 		TargetInteractable->Interact(this);
+	}
+}
+
+void AMyCharacter::UpdateInteractionWidget() const
+{
+	if (IsValid(TargetInteractable.GetObject()))
+	{
+		MyHUD->UpdateInteractionWidget(&TargetInteractable->InteractableData);
 	}
 }

@@ -3,6 +3,7 @@
 
 #include "World/Pickup.h"
 
+#include "Components/InventoryComponent.h"
 #include "Items/ItemBase.h"
 
 // Sets default values
@@ -96,7 +97,32 @@ void APickup::TakePickup(const AMyCharacter* Taker)
 	{
 		if (ItemReference)
 		{
-			
+			if (UInventoryComponent* PlayerInventory=Taker->GetInventory())
+			{
+				const FItemAddResult AddResult=PlayerInventory->HandleAddItem(ItemReference);
+
+				switch (AddResult.OperationResult)
+				{
+				case EItemAddResult::IAR_NoItemAdded:
+					break;
+				case EItemAddResult::IAR_PartialAmountItemAdded:
+					UpdateInteractableData();
+					Taker->UpdateInteractionWidget();
+					break;
+				case EItemAddResult::IAR_ALLItemAdded:
+					Destroy();
+					break;
+				}
+				UE_LOG(LogTemp,Warning,TEXT("%s"),*AddResult.ResultMessage.ToString());
+			}
+			else
+			{
+				UE_LOG(LogTemp,Warning,TEXT("Player inventory component is null!"));
+			}
+		}
+		else
+		{
+			UE_LOG(LogTemp,Warning,TEXT("Pickup internal item reference was somehow null!"))
 		}
 	}
 }
