@@ -62,7 +62,7 @@ struct FItemAddResult
 	{
 		FItemAddResult AddedAllResult;
 		AddedAllResult.ActualAmountAdded=0;
-		AddedAllResult.OperationResult=EItemAddResult::IAR_NoItemAdded;
+		AddedAllResult.OperationResult=EItemAddResult::IAR_ALLItemAdded;
 		AddedAllResult.ResultMessage=Message;
 		return AddedAllResult;
 	};
