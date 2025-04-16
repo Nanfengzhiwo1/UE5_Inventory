@@ -65,10 +65,12 @@ protected:
 
 	float InteractionCheckDistance;
 
+	
 	FTimerHandle TimerHandle_Interaction;
 
 	FInteractionData InteractionData;
 
+	void ToggleMenu();
 	void PerformInteractionCheck();
 	void FoundInteractable(AActor* NewInteractable);
 	void NoInteractableFound();

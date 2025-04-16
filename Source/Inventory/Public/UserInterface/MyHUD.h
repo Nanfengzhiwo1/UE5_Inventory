@@ -28,6 +28,8 @@ public:
 	AMyHUD();
 	void DisplayMenu();
 	void HideMenu();
+	void ToggleMenu();
+	
 	void DisplayInteractionWidget() const;
 	void HideInteractionWidget() const;
 	void UpdateInteractionWidget(const FInteractableData* InteractableData) const;

@@ -46,6 +46,14 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	PlayerInputComponent->BindAction("Interact",IE_Pressed,this,&AMyCharacter::BeginInteract);
 	PlayerInputComponent->BindAction("Interact",IE_Released,this,&AMyCharacter::EndInteract);
+
+	PlayerInputComponent->BindAction("ToggleMenu",IE_Pressed,this,&AMyCharacter::ToggleMenu);
+	
+}
+
+void AMyCharacter::ToggleMenu()
+{
+	MyHUD->ToggleMenu();
 }
 
 void AMyCharacter::PerformInteractionCheck()

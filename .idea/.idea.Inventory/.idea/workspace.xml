@@ -81,21 +81,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a151e4-49e8-482a-a84e-db1f4324a1bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Private/Components/InventoryComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Inventory/Public/Components/InventoryComponent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_DragItemVisual.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_InventoryItemSlot.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_InventoryToolTip.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/TT/JREYB2OH5GTEIAR60P11IN.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ItemData/DT_MundaneItems.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ItemData/DT_MundaneItems.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/QE/NAD74TSOFSH0WQ7D466NG8.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/QE/NAD74TSOFSH0WQ7D466NG8.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UserInterface/WBP_InteractionWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_InteractionWidget.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UserInterface/WBP_InventoryPanel.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_InventoryPanel.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UserInterface/WBP_MainMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UserInterface/WBP_MainMenu.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/Character/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Private/Character/MyCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/Items/ItemBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Private/Items/ItemBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/World/Pickup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Private/World/Pickup.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/UserInterface/Inventory/InventoryPanel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Private/UserInterface/Inventory/InventoryPanel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/UserInterface/MyHUD.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Private/UserInterface/MyHUD.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/Character/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/Character/MyCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/Items/ItemBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/Items/ItemBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/UserInterface/Inventory/InventoryPanel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/UserInterface/Inventory/InventoryPanel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/UserInterface/MyHUD.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/UserInterface/MyHUD.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_math.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UEProject/Inventory/Source/Inventory/Public/Character/MyCharacter.h" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -29919,6 +30007,14 @@
       <workItem from="1744095677943" duration="599000" />
       <workItem from="1744102548903" duration="7696000" />
       <workItem from="1744120692845" duration="3222000" />
+      <workItem from="1744260235911" duration="1198000" />
+      <workItem from="1744361187009" duration="828000" />
+      <workItem from="1744536400671" duration="1875000" />
+      <workItem from="1744611726218" duration="13724000" />
+      <workItem from="1744649622157" duration="5473000" />
+      <workItem from="1744688208805" duration="2723000" />
+      <workItem from="1744732359144" duration="5571000" />
+      <workItem from="1744788533511" duration="1383000" />
     </task>
     <servers />
   </component>
