@@ -5,6 +5,7 @@
 
 #include "Components/InventoryComponent.h"
 #include "UserInterface/MyHUD.h"
+#include "World/Pickup.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -54,6 +55,29 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void AMyCharacter::ToggleMenu()
 {
 	MyHUD->ToggleMenu();
+}
+
+void AMyCharacter::DropItem(UItemBase* ItemToDrop, const int32 QuantityToDrop)
+{
+	if (PlayerInventory->FindMatchingItem(ItemToDrop))
+	{
+		FActorSpawnParameters SpawnParameters;
+		SpawnParameters.Owner=this;
+		SpawnParameters.bNoFail=true;
+		SpawnParameters.SpawnCollisionHandlingOverride=ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn;
+
+		
+		const FVector SpawnLocation{GetActorLocation()+(GetActorForwardVector()*50.0f)};
+		const FTransform SpawnTransform(GetActorRotation(),SpawnLocation);
+		
+		const int32 RemovedQuantiy=PlayerInventory->RemoveAmountOfItem(ItemToDrop,QuantityToDrop);
+		APickup* Pickup=GetWorld()->SpawnActor<APickup>(APickup::StaticClass(),SpawnTransform,SpawnParameters);
+		Pickup->InitializeDrop(ItemToDrop,RemovedQuantiy);
+	}
+	else
+	{
+		UE_LOG(LogTemp,Warning,TEXT("Item to drop was somehow null!"))
+	}
 }
 
 void AMyCharacter::PerformInteractionCheck()
@@ -182,3 +206,5 @@ void AMyCharacter::UpdateInteractionWidget() const
 		MyHUD->UpdateInteractionWidget(&TargetInteractable->InteractableData);
 	}
 }
+
+

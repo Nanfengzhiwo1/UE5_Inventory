@@ -7,6 +7,7 @@
 #include "Inventory/InventoryCharacter.h"
 #include "MyCharacter.generated.h"
 
+class UItemBase;
 class UInventoryComponent;
 class AMyHUD;
 
@@ -48,6 +49,8 @@ public:
 	FORCEINLINE UInventoryComponent* GetInventory()const{return PlayerInventory;};
 
 	void UpdateInteractionWidget()const;
+
+	void DropItem(UItemBase* ItemToDrop,const int32 QuantityToDrop);
 protected:
 
 	UPROPERTY()
