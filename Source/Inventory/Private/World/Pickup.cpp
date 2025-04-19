@@ -48,7 +48,7 @@ void APickup::InitializePickup(const TSubclassOf<UItemBase> BaseClass, const int
 void APickup::InitializeDrop(UItemBase* ItemToDrop, const int32 InQuantity)
 {
 	ItemReference=ItemToDrop;
-	ItemQuantity<=0?ItemReference->SetQuantity(1):ItemReference->SetQuantity(InQuantity);
+	InQuantity<=0?ItemReference->SetQuantity(1):ItemReference->SetQuantity(InQuantity);
 	ItemReference->NumericData.Weight=ItemToDrop->GetItemSingleWeight();
 	PickupMesh->SetStaticMesh(ItemToDrop->AssetData.Mesh);
 
