@@ -3,6 +3,7 @@
 
 #include "Character/MyCharacter.h"
 
+#include "EnhancedInputComponent.h"
 #include "Components/InventoryComponent.h"
 #include "UserInterface/MyHUD.h"
 #include "World/Pickup.h"
@@ -44,12 +45,15 @@ void AMyCharacter::Tick(float DeltaTime)
 void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	// Set up action bindings
+	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent)) {
+		//Interacting
+		EnhancedInputComponent->BindAction(InterAction,ETriggerEvent::Triggered,this,&AMyCharacter::BeginInteract);
+		EnhancedInputComponent->BindAction(InterAction,ETriggerEvent::Completed,this,&AMyCharacter::EndInteract);
 
-	PlayerInputComponent->BindAction("Interact",IE_Pressed,this,&AMyCharacter::BeginInteract);
-	PlayerInputComponent->BindAction("Interact",IE_Released,this,&AMyCharacter::EndInteract);
-
-	PlayerInputComponent->BindAction("ToggleMenu",IE_Pressed,this,&AMyCharacter::ToggleMenu);
-	
+		//ToggleMenu
+		EnhancedInputComponent->BindAction(ToggleMenuAction,ETriggerEvent::Completed,this,&AMyCharacter::ToggleMenu);
+	}
 }
 
 void AMyCharacter::ToggleMenu()

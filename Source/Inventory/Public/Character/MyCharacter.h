@@ -35,6 +35,12 @@ class INVENTORY_API AMyCharacter : public AInventoryCharacter
 {
 	GENERATED_BODY()
 
+	/** Interact Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* InterAction;
+	/** ToggleMenu Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* ToggleMenuAction;
 public:
 	// Sets default values for this character's properties
 	AMyCharacter();
