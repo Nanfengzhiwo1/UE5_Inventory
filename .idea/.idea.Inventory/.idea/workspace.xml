@@ -81,15 +81,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a151e4-49e8-482a-a84e-db1f4324a1bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/Actions/IA_Interact.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/Actions/IA_ToggleMenu.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Inventory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/InventoryCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/InventoryCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/Character/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Private/Character/MyCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/Character/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Inventory/Public/Character/MyCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Inventory/Private/Character/MyPlayerController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Inventory/Public/Character/MyPlayerController.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30074,7 +30068,7 @@
       <workItem from="1745295962423" duration="598000" />
       <workItem from="1745315483203" duration="5477000" />
       <workItem from="1745392914152" duration="262000" />
-      <workItem from="1745400305256" duration="377000" />
+      <workItem from="1745400305256" duration="1189000" />
     </task>
     <servers />
   </component>
