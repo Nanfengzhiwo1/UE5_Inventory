@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Character/MyCharacter.h"
+#include "Engine/DataTable.h"
 #include "GameFramework/Actor.h"
 #include "Interfaces/InteractionInterface.h"
 #include "Pickup.generated.h"
@@ -33,16 +34,14 @@ protected:
 
 	UPROPERTY(VisibleAnywhere,Category="Pickup | Components")
 	UStaticMeshComponent* PickupMesh;
-	UPROPERTY(EditInstanceOnly,Category="Pickup | Item Initializtion")
-	UDataTable* ItemDataTable;
-	UPROPERTY(EditInstanceOnly,Category="Pickup | Item Initializtion")
-	FName DesiredItemID;
+	UPROPERTY(VisibleInstanceOnly,Category="Pickup | Interaction Data")
+	FInteractableData  InstanceInteractableData;
 	UPROPERTY(VisibleAnywhere,Category="Pickup | Item Reference")
 	UItemBase* ItemReference;
 	UPROPERTY(EditInstanceOnly,Category="Pickup | Item Initializtion")
 	int32 ItemQuantity;
-	UPROPERTY(VisibleAnywhere,Category="Pickup | Interaction")
-	FInteractableData  InstanceInteractableData;
+	UPROPERTY(EditInstanceOnly,Category="Pickup | Item Initializtion")
+	FDataTableRowHandle ItemRowHandle;
 	
 	virtual void BeginPlay() override;
 	virtual void Interact(AMyCharacter* PlayerCharacter) override;
