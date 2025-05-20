@@ -14,12 +14,24 @@ void UInventoryToolTip::NativeConstruct()
 	switch (ItemBeingHovered->ItemType)
 	{
 		case EItemType::Armor:
+			ItemType->SetText(FText::FromString("Armor"));
+			DamageValue->SetVisibility(ESlateVisibility::Collapsed);
+			ArmorRating->SetVisibility(ESlateVisibility::Collapsed);
 			break;
 		case EItemType::Weapon:
+			ItemType->SetText(FText::FromString("Weapon"));
+			DamageValue->SetVisibility(ESlateVisibility::Collapsed);
+			ArmorRating->SetVisibility(ESlateVisibility::Collapsed);
 			break;
 		case EItemType::Shield:
+			ItemType->SetText(FText::FromString("Shield"));
+			DamageValue->SetVisibility(ESlateVisibility::Collapsed);
+			ArmorRating->SetVisibility(ESlateVisibility::Collapsed);
 			break;
 		case EItemType::Spell:
+			ItemType->SetText(FText::FromString("Spell"));
+			DamageValue->SetVisibility(ESlateVisibility::Collapsed);
+			ArmorRating->SetVisibility(ESlateVisibility::Collapsed);
 			break;
 		case EItemType::Consumable:
 			ItemType->SetText(FText::FromString("Consumable"));
